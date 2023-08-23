@@ -9,7 +9,7 @@ int main() {
     // 
     // First Open the Device
     // I thought it might be easiest to open the device by description but what we use to open the device in FT_OpenEx can change
-    // Look up FT_OpenEx in doc if you need to change how you open the device
+    // Look up FT_OpenEx in D2XX_Programmers_GuideFT_000071.pdf if you need to change how you open the device
     //
     long dwLoc;
     char deviceDescription[] = "USB Serial Converter"; // Update this with our device device description
